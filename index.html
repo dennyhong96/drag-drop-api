@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content</title>
+
+  <script defer type="module" src="./index.js"></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .dropzone-1 {
+      height: 200px;
+      width: 200px;
+      border: 10px dashed red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dropzone-2 {
+      height: 200px;
+      width: 200px;
+      border: 10px dashed blueviolet;
+      display: flex;
+      margin-left: 100px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dropzone--over {
+      opacity: 0.5;
+    }
+
+    .draggable {
+      height: 100px;
+      width: 100px;
+      background-color: #333;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="dropzone-1">
+    <div draggable="true" class="draggable" data-draggable-id="xje3rh"></div>
+  </div>
+
+  <div class="dropzone-2"></div>
+
+</body>
+
+</html>
